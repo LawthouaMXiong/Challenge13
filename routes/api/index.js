@@ -3,7 +3,7 @@ const categoryRoutes = require('./categoryRoute');
 const productRoutes = require('./productRoute');
 const tagRoutes = require('./tagRoute');
 
-router.use('/categories', categoryRoutes);
+router.use('/category', categoryRoutes);
 router.use('/products', productRoutes);
 router.use('/tags', tagRoutes);
 
